@@ -1,1 +1,2 @@
 # Typing_game
+Is a practice of the Web-Dev-For-Beginners's course of Microsoft. A large part of the code is exactly the same as the course one because I am still learning these languages. However, I am starting to feel more comfortable and I added a textbox to enter you player name, I restricted the uses of the buttons so you must have to input a player name before starting to type the quote, and I added a table with the historical results of the game and the player who made it.
