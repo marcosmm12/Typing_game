@@ -1,0 +1,53 @@
+.highlight {
+    background-color: yellow;
+}
+
+.error {
+    background-color: lightcoral;
+    border: 1px solid red;
+}
+
+table {
+    width: 50%;
+    margin: 20 px 0;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #eae8e8;
+}
+
+.firstPlace {
+    background-color: lightyellow;
+}
+
+.secondPlace {
+    background-color: lightslategray;
+}
+
+.thirdPlace {
+    background-color: lightsalmon;
+}
+
+.otherRows {
+    background-color: transparent;
+}
+
+#central_part {
+    display: flex;
+    justify-content: stretch;
+    flex: 1;
+}
+
+#left_part, #right_part {
+    margin: 10px;
+}

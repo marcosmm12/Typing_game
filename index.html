@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Typing game</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Typing Game!</h1>
+        <p>Practice your typing skills with a quote from Sherlock Holmes. First, introduce your player name. Then, click "start" to begin!</p>
+        <p id="quote"></p>  <!--This will display our quote-->
+        <p id="message"></p> <!--This will display any status messages-->
+        <div id="central_part">
+            <div id="left_part">
+                <h3>Player name</h3>
+                <input type="text" aria-label="player name" id="player_name" /> <!--Textbox to introduce your player name-->
+                <button type="button" id="submit">Submit</button>   <!--To submit your player name-->
+            </div>
+            <div id="right_part">
+                <h3>Input textbox</h3>
+                <input type="text" arial-label="current word" id="typed-value" /> <!--The textbox for typing-->
+                <button type="button" id="start">Start</button>  <!--To start the game-->
+            </div>
+        </div>
+        <h2>Historical scores</h2>
+        <table id="historical_scores_table">
+            <thead>
+                <tr>
+                    <th>Index</th>
+                    <th>Time (seconds)</th>
+                    <th>Player name</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        <script src="script.js"></script>
+    </body>
+</html>
